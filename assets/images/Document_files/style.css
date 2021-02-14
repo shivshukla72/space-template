@@ -1,0 +1,249 @@
+                /* import font helveticaneue */
+            
+            @font-face {
+                font-family: 'HelveticaNeue-bold';
+                src: url('../fonts/helveticaneue/HelveticaNeueBold.eot');
+                src: url('../fonts/helveticaneue/HelveticaNeueBold.eot?#iefix') format('../fonts/helveticaneue/embedded-opentype'), url('../fonts/helveticaneue/HelveticaNeueBold.woff2') format('woff2'), url('../fonts/helveticaneue/HelveticaNeueBold.woff') format('woff'), url('../fonts/helveticaneue/HelveticaNeueBold.ttf') format('truetype'), url('../fonts/helveticaneue/HelveticaNeueBold.svg#HelveticaNeueBold') format('svg');
+                font-weight: bold;
+                font-style: normal;
+                font-display: swap;
+            }
+            
+            @font-face {
+                font-family: 'HelveticaNeue-medium';
+                src: url('../fonts/helveticaneue/HelveticaNeueMedium.eot');
+                src: url('../fonts/helveticaneue/HelveticaNeueMedium.eot?#iefix') format('embedded-opentype'), url('../fonts/helveticaneue/HelveticaNeueMedium.woff2') format('woff2'), url('../fonts/helveticaneue/HelveticaNeueMedium.woff') format('woff'), url('../fonts/helveticaneue/HelveticaNeueMedium.ttf') format('truetype'), url('../fonts/helveticaneue/HelveticaNeueMedium.svg#HelveticaNeueMedium') format('svg');
+                font-weight: 400;
+                font-style: normal;
+                font-display: swap;
+            }
+            
+            @font-face {
+                font-family: 'HelveticaNeue-regular';
+                src: url('../fonts/helveticaneue/HelveticaNeueRegular.eot');
+                src: url('../fonts/helveticaneue/HelveticaNeueRegular.eot?#iefix') format('embedded-opentype'), url('../fonts/helveticaneue/HelveticaNeueRegular.woff2') format('woff2'), url('../fonts/helveticaneue/HelveticaNeueRegular.woff') format('woff'), url('../fonts/helveticaneue/HelveticaNeueRegular.ttf') format('truetype'), url('../fonts/helveticaneue/HelveticaNeueRegular.svg#HelveticaNeueRegular') format('svg');
+                font-weight: 200;
+                font-style: normal;
+                font-display: swap;
+            }
+            /* gloabal css start */
+            
+            html * {
+                font-family: 'HelveticaNeue-medium', sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            
+            .button-rounded {
+                background-color: #0E6FFF;
+                color: #ffffff;
+                font-family: 'HelveticaNeue-bold', sans-serif;
+                font-size: 30px;
+            }
+            
+            .section {
+                margin: 100px 0 0 0;
+            }
+            
+            h3 {
+                font-family: 'HelveticaNeue-bold', sans-serif;
+                line-height: 110%;
+            }
+            /* gloabal css end */
+            
+            .wrapper {
+                background: linear-gradient(to top, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFF4D4;
+            }
+            /* header start */
+            /* navbar start */
+            
+            .navbar .navbar-collapse {
+                justify-content: flex-end;
+            }
+            
+            header .navbar .navbar-brand {
+                margin: 10px 0 0 20px;
+            }
+            
+            .navbar .navbar-collapse .navbar-nav a {
+                color: #B3ACA2;
+                font-family: 'HelveticaNeue-bold', sans-serif;
+                font-size: 21px;
+                margin: 20px 40px 0 0;
+            }
+            
+            .navbar .navbar-collapse .form-inline button {
+                border: 1px solid #FF4242;
+                color: #0E6FFF;
+                font-family: 'HelveticaNeue-bold', sans-serif;
+                font-size: 18px;
+                margin: 20px 40px 0 0;
+            }
+            /* navbar end */
+            /* header end */
+            /* section banner start */
+            /* .sectionbanner .mycontainer .row::after { */
+            /* position: absolute;
+    right: 0;
+    z-index: 1000;
+    height: 10px;
+    background-color: white;
+    content: "";
+    width: 100vw;
+    right: 0;
+    top: 0; */
+            /* } */
+            
+            .sectionbanner .sectionbanner-title {
+                color: #B3ACA2;
+                font-size: 26px;
+                font-family: 'HelveticaNeue-medium', sans-serif;
+                line-height: 120%;
+            }
+            
+            .sectionbanner .sectionbanner-heading h1 {
+                font-family: 'HelveticaNeue-bold', sans-serif;
+                font-size: 84px;
+                line-height: 110%;
+                max-width: 670px;
+                margin: 50px 0 40px 0;
+            }
+            
+            .sectionbanner .sectionbanner-button button {
+                background-color: #0E6FFF;
+                color: #ffffff;
+                font-family: 'HelveticaNeue-bold', sans-serif;
+                font-size: 30px;
+                line-height: 120%;
+                margin: 20px 0 200px 0;
+                padding: 18px 42px;
+            }
+            
+            .sectionbanner .sectionbanner-review .row {
+                padding: 20px 0 0 0;
+            }
+            
+            .sectionbanner .sectionbanner-review__content {
+                font-family: 'HelveticaNeue-medium', sans-serif;
+                font-size: 44px;
+                line-height: 110%;
+                margin: 20px 0 0 0;
+                max-width: 640px;
+            }
+            
+            .sectionbanner .sectionbanner-review .row ul li {
+                list-style: none;
+            }
+            
+            .sectionbanner .sectionbanner-review .row ul li h3 {
+                font-family: 'HelveticaNeue-bold', sans-serif;
+                font-size: 30px;
+            }
+            
+            .sectionbanner .sectionbanner-review .row ul li h6 {
+                font-family: 'HelveticaNeue-medium', sans-serif;
+                font-size: 24px;
+            }
+            /* .sectionbanner .carousel .carousel-indicators {
+    margin: 0px;
+    position: relative;
+    top: 12px;
+    z-index: 1000;
+}
+
+.sectionbanner .carousel .carousel-indicators li {
+    border-top: none;
+    border-bottom: none;
+    height: 12px;
+    margin: 0px;
+    opacity: 1;
+    width: 100%;
+    z-index: 1000;
+} */
+            
+            .sectionbanner .carousel .carousel-indicators .active {
+                background-color: #FFB19D;
+            }
+            
+            .sectionbanner .carousel .carousel-control-prev {
+                bottom: 30px;
+                left: 5px;
+                top: unset;
+            }
+            
+            .sectionbanner .carousel .carousel-control-next {
+                bottom: 30px;
+                left: 70px;
+                right: unset;
+                top: unset;
+            }
+            
+            .sectionbanner .arrow {
+                background-color: #6B5F5C;
+                color: #392E33;
+                border-radius: 8px;
+                height: 51px;
+                width: 51px;
+                padding: 10px;
+            }
+            
+            .sectionbanner .arrow:hover {
+                background-color: #0E6FFF;
+                color: #FFFFFF;
+            }
+            
+            .sectionbanner .container .own-container__rightcol {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                top: 100px;
+                left: "";
+            }
+            
+            @media (min-width:1200px) {
+                .sectionbanner .own-container {
+                    max-width: 1920px;
+                    margin-right: 0;
+                    padding-right: 0;
+                }
+                /* section banner end */
+                /* section gathering start */
+                /* .sectiongathering {
+    padding: 0 200px 0 200px;
+}
+
+.sectiongathering-heading h2 {
+    font-family: 'HelveticaNeue-bold', sans-serif;
+    font-size: 64px;
+    line-height: 110%;
+}
+
+.sectiongathering .sectiongathering-content p {
+    font-family: 'HelveticaNeue-medium', sans-serif;
+    font-size: 28px;
+    line-height: 120%;
+    padding: 0px 0 95px 100px;
+    margin: 50px 0 0 0;
+}
+
+.sectiongathering-left__img {
+    margin: 110px 0 0 0;
+} */
+                /* article second of gathering section start */
+                /* .sectiongathering .videoblog {
+    margin: 100px 0 0 0;
+}
+
+.sectiongathering .videoblog-heading h3 {
+    font-size: 52px;
+    padding: 100px 0 0 50px;
+}
+
+.sectiongathering .videoblog-content p {
+    font-size: 28px;
+    padding: 20px 0 50px 50px;
+} */
+                /* article second of gathering section end */
+                /* section gathering end */
+                /* media query start */
+                /* media query end */
