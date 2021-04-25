@@ -123,7 +123,7 @@ header .navbar .navbar-brand {
 
 .sectionbanner .own-container {
     max-width: 1980px;
-    margin-right: 0;
+    margin-right: auto;
     margin-left: auto;
 }
 
@@ -681,10 +681,7 @@ footer::before {
     .sectionbanner .own-container {
         padding-left: 110px;
     }
-    .sectiondesign .sectiondesign-owncontainer {
-        max-width: 100%;
-        /* margin-left: 100px; */
-    }
+   
     /* footer start */
     footer .footer-owncontainer {
         max-width: 1300px;
